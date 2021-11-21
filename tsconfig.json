@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "outDir": "./clasp",
+    "alwaysStrict": true,
+    "baseUrl": "./",
+    "noImplicitAny": true,
+    "strictNullChecks": true
+  },
+  "include": [
+    "app-script/*"
+  ]
+}

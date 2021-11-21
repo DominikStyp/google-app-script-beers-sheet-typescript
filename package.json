@@ -1,0 +1,22 @@
+{
+  "name": "google-app-script-beers-sheet-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "nodemon --exec ts-node src/index.ts",
+    "tsc": "npx tsc",
+    "postinstall": "replace-in-file \"declare var console\" \"//declare var console\" node_modules/@types/google-apps-script/google-apps-script.base.d.ts"
+  },
+  "dependencies": {
+    "@types/google-apps-script": "1.0.41",
+    "@types/node": "12.12.11",
+    "replace-in-file": "6.3.2",
+    "ts-node": "8.5.2",
+    "typescript": "3.7.2"
+  },
+  "devDependencies": {
+    "nodemon": "2.0.0"
+  },
+  "keywords": []
+}
